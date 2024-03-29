@@ -7,6 +7,8 @@ utilties to generate features for cuba web applications including a skeleton pro
     - folders
 - application
     - bun
+    - test
 - migrations
 - models
 - routes
+    - views
