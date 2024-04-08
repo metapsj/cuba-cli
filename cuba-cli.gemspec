@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# require_relative 'lib/version'
+require_relative 'lib/cuba-cli/version'
 
 Gem::Specification.new do |s|
   s.name	= 'deployable_application'
@@ -13,5 +13,4 @@ Gem::Specification.new do |s|
   s.homepage	= "https://github.com/metapsj"
   s.files	=  Dir['README.md', 'VERSION', 'Gemfile', 'Rakefile', '{bin,lib,config,vendor}/**/*']
   s.require_path = 'lib'
-  s.add_dependency('cuba')
 end
